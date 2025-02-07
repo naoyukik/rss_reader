@@ -1,21 +1,36 @@
 {
-  "name": "rss_reader",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "vitest"
-  },
-  "keywords": [],
+  "name": "rss-frontend",
+  "version": "0.0.0",
   "author": "naoyukik",
   "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "private": true,
   "dependencies": {
-    "jotai": "^2.11.1",
-    "preact": "^10.25.4",
-    "typescript": "^5.7.3"
+    "@angular/animations": "^19.1.0",
+    "@angular/common": "^19.1.0",
+    "@angular/compiler": "^19.1.0",
+    "@angular/core": "^19.1.0",
+    "@angular/forms": "^19.1.0",
+    "@angular/platform-browser": "^19.1.0",
+    "@angular/platform-browser-dynamic": "^19.1.0",
+    "@angular/router": "^19.1.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.15.0"
   },
   "devDependencies": {
+    "@analogjs/vite-plugin-angular": "^1.13.0",
+    "@angular-devkit/build-angular": "^19.1.6",
+    "@angular/cli": "^19.1.6",
+    "@angular/compiler-cli": "^19.1.0",
     "@biomejs/biome": "1.9.4",
-    "vitest": "^3.0.4"
+    "typescript": "~5.7.2",
+    "vitest": "^3.0.5"
   }
 }
